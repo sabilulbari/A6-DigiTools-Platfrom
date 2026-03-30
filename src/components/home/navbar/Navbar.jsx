@@ -80,7 +80,7 @@ const Navbar = () => {
               </div>
             </div>
             <a className="btn bg-white border-none hover:bg-primary hover:text-white hover:rounded-full mr-3">Login</a>
-            <a className="btn  text-white rounded-full bg-linear-to-r from-indigo-600 to-violet-500">Get Started</a>
+            <a className="btn py-[12px] px-[16px] text-white rounded-full bg-linear-to-r from-indigo-600 to-violet-500">Get Started</a>
           </div>
         </div>
       </div>
