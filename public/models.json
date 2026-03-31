@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Generator",
+    "description": "Generate high-quality blog posts, ads, and social media content using advanced AI models.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["GPT-powered writing", "50+ content templates", "SEO optimization", "Multi-language support"],
+    "icon": "https://i.ibb.co.com/JFSYGFBd/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Resume Builder Pro",
+    "description": "Create ATS-friendly resumes with modern templates and smart suggestions.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["ATS optimization", "100+ templates", "Export to PDF & DOCX", "Real-time suggestions"],
+    "icon": "https://i.ibb.co.com/XfySDqBK/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Image Generator",
+    "description": "Turn text into stunning visuals using cutting-edge AI image generation models.",
+    "price": 15.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Text-to-image AI", "HD image export", "Style presets", "Unlimited generations"],
+    "icon": "https://i.ibb.co.com/bjhCrnVW/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Website Builder AI",
+    "description": "Create fully responsive websites in minutes without coding using AI assistance.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag & drop builder", "AI layout generator", "Custom domains", "Hosting included"],
+    "icon": "https://i.ibb.co.com/cSrWm5Kw/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Code Assistant",
+    "description": "Boost your development workflow with smart code suggestions and debugging help.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Auto code completion", "Bug detection", "Multi-language support", "IDE integration"],
+    "icon": "https://i.ibb.co.com/cSrWm5Kw/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and automate posts across all major social media platforms.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Multi-platform posting", "Auto scheduling", "Analytics dashboard", "Content calendar"],
+    "icon": "https://i.ibb.co.com/DP0X2JXc/9926396.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Video Generator",
+    "description": "Create engaging videos from text scripts using AI voice and visuals.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Text-to-video", "AI voiceover", "Stock footage library", "HD export"],
+    "icon": "https://i.ibb.co.com/BVFJCjHp/6512789.png"
+  },
+  {
+    "id": 8,
+    "name": "Startup Toolkit",
+    "description": "Essential tools for entrepreneurs including pitch decks, business plans, and analytics.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Pitch deck templates", "Business plan generator", "Market analysis tools", "Financial calculators"],
+    "icon": "https://i.ibb.co.com/677fbc9D/5537993.png" 
+  }
+]
