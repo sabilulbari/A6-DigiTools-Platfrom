@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 ">
           {/* Logo & Description */}
           <div className="md:col-span-4">
             <div className="flex items-center gap-3 mb-6">
@@ -21,7 +21,8 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="md:col-span-2">
+
+          <div className="md:col-span-2 text-center">
             <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
@@ -47,7 +48,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 text-center">
             <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
@@ -73,7 +74,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 text-center">
             <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
             <ul className="space-y-4 text-zinc-400">
               <li>
@@ -98,9 +99,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 text-center ">
             <h3 className="text-white  font-semibold mb-6 ">Resources</h3>
-            <ul className="space-y-4 text-white text-2xl flex gap-5">
+            <ul className="space-y-4 text-white text-2xl flex gap-5 text-center justify-center">
               <li>
                 <a href="#" className="hover:text-red-500 transition duration-400">
                   <FaInstagram></FaInstagram>
