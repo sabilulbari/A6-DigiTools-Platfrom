@@ -25,7 +25,7 @@ const fetchPack = async () => {
 function App() {
   const modelPromise = fetchModels();
   const packPromise = fetchPack();
-  const [activeTab, stateActiveTab] = useState("Product");
+  const [activeTab, stateActiveTab] = useState("product");
 
   return (
     <>
@@ -38,8 +38,8 @@ function App() {
         <section>
           <Headercard></Headercard>
 
-          <section className="flex justify-center">
-            {/* name of each tab group should be unique */}
+          {/* name of each tab group should be unique */}
+          <section className="flex justify-center py-5">
             <div className="tabs tabs-box w-max flex items-center   text-center border border-gray-100   justify-center rounded-full mt-8">
               <input
                 onClick={() => {
@@ -64,8 +64,10 @@ function App() {
           </section>
 
           <section>
-            <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>{activeTab === "product" && <Cards modelPromise={modelPromise}></Cards>}</Suspense>
-            {activeTab === "cart" && <Cart></Cart>}
+            <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
+              {activeTab === "product" && <Cards modelPromise={modelPromise}></Cards>}
+              {activeTab === "cart" && <Cart></Cart>}
+            </Suspense>
           </section>
           <section>
             <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
