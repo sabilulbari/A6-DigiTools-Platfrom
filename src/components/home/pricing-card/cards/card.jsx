@@ -1,13 +1,22 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
-const Card = ({ card }) => {
-  const { name, tag, price, period, description, features,icon } = card;
+const Card = ({ card,carts, setCart }) => {
+  const { name, tag, price, period, description, features, icon } = card;
 
   const [isSubscribe, stateIsSubscribe] = useState(false);
 
-  const handleSubscribe = ()=>{
+  const handleSubscribe = () => {
+
+    const hasCart = carts.find(item => item.id === card.id);
+    if(hasCart){
+      toast.info("Item already added!")
+      return;
+    }
     stateIsSubscribe(true);
-  }
+    setCart([...carts, card]);
+    toast.success("Item added to cart!")
+  };
 
   return (
     <div className="">

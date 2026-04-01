@@ -26,11 +26,13 @@ function App() {
   const modelPromise = fetchModels();
   const packPromise = fetchPack();
   const [activeTab, stateActiveTab] = useState("product");
+  const [carts, setCart] = useState([])
+  
 
   return (
     <>
       <header>
-        <Navbar></Navbar>
+        <Navbar carts={carts}></Navbar>
         <Banner></Banner>
         <Rating></Rating>
       </header>
@@ -65,8 +67,8 @@ function App() {
 
           <section>
             <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
-              {activeTab === "product" && <Cards modelPromise={modelPromise}></Cards>}
-              {activeTab === "cart" && <Cart></Cart>}
+              {activeTab === "product" && <Cards carts={carts} setCart={setCart} modelPromise={modelPromise}></Cards>}
+              {activeTab === "cart" && <Cart carts={carts} setCart={setCart}></Cart>}
             </Suspense>
           </section>
           <section>
