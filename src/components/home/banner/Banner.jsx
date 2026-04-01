@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
       <div className="w-[90%] mx-auto mt-21.25">
-        <div className=" flex justify-between">
+        <div className=" flex  flex-col justify-center items-center text-center md:justify-between">
           <div className="banner-heading  mt-12 space-y-4 ">
             <div className="btn rounded-full  bg-[#eaeeff]">
               <span className="flex font-medium text-[16px]  bg-linear-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
@@ -27,7 +27,7 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <img  src="/banner.png" className="rounded-lg" />
+          <img src="/banner.png" className="rounded-lg w-lg mt-20 md:mt-auto md:w-md " />
         </div>
       </div>
     </div>
