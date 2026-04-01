@@ -1,0 +1,23 @@
+import React, { use } from 'react';
+import Cardgetstart from './Cardgetstart';
+
+const Getstart = ({packPromise}) => {
+
+    const data = use(packPromise);
+
+  return (
+    <div className=" bg-[#F9FAFC]">
+      <div className="text-center pt-30 mt-30 space-y-4">
+        <h1 className="font-extrabold text-5xl">Get Started In 3 Steps</h1>
+        <p className="font-normal text-[16px] text-gray-500 ">Start using premium digital tools in minutes, not hours.</p>
+      </div>
+      <div className="grid gap-4 grid-cols-1  md:grid-cols-2 xl:grid-cols-3">
+        {data.map((card, index) => (
+          <Cardgetstart key={index} card={card}></Cardgetstart>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Getstart;

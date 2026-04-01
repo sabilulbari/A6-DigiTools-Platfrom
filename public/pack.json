@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Starter",
+    "name": "Create Account",
+    "description2" : "Sign up for free in seconds. No credit card required to get started.",
+    "description": "Best for beginners to start simple and fast.",
+    "price": 10,
+    "period": "Month",
+    "features": ["Basic tools access", "Up to 5 projects", "Standard performance", "Email support"],
+    "tag": "",
+    "icon": "https://i.ibb.co.com/MqvFc6n/user.png"
+  },
+  {
+    "title": "Pro",
+    "name": "Choose Products",
+    "description2": "Browse our catalog and select the tools that fit your needs.",
+    "description": "Perfect for growing users who need more power.",
+    "price": 25,
+    "period": "Month",
+    "features": ["All Starter features", "Unlimited projects", "Priority support", "Advanced tools", "Faster performance"],
+    "tag": "Most Popular",
+    "istag": true,
+
+    "icon": "https://i.ibb.co.com/W4ZPNXnD/package.png"
+  },
+  {
+    "title": "Enterprise",
+    "name": "Start Creating",
+    "description2": "Download and start using your premium  tools immediately.",
+    "description": "For large teams needing full control and scale.",
+    "price": 60,
+    "period": "Month",
+    "features": ["All Pro features", "Custom integrations", "Dedicated account manager", "Enterprise security", "24/7 premium support", "Scalable infrastructure"],
+    "tag": "",
+    "icon": "https://i.ibb.co.com/zVrGXRP0/rocket.png"
+  }
+]
